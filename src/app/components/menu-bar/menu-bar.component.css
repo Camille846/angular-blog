@@ -1,0 +1,33 @@
+.menu-bar__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.menu-bar__container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menu-bar__container ul > li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.menu-bar__container ul > li > a {
+  text-decoration: none;
+  color: #505050;
+  font-size: calc(var(--default-font-size) * 1.2);
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 1rem;
+    transition: 0.3s;
+}
+
+.menu-bar__container ul > li > a:hover {
+  color: #ffffff;
+  transition: 0.3s;
+}
