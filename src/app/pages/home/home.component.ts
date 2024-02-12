@@ -9,7 +9,7 @@ import { RightCardComponent } from '../../components/right-card/right-card.compo
   standalone: true,
   imports: [MenuBarComponent, MenuTitleComponent, LeftCardComponent, RightCardComponent],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrl: './home.component.css',
 })
 export class HomeComponent {
 

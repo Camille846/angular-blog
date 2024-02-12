@@ -14,3 +14,17 @@
     text-transform: uppercase;
     font-weight: 700;
 }
+
+@media (max-width: 768px){
+    .menu-container h1{
+        font-size: calc(var(--default-font-size) * 4);
+    }
+}
+
+/* small devices */
+
+@media (max-width: 480px){
+    .menu-container h1{
+        font-size: calc(var(--default-font-size) * 3);
+    }
+}

@@ -31,3 +31,10 @@
   color: #ffffff;
   transition: 0.3s;
 }
+
+@media (max-width: 768px) {
+  .menu-bar__container ul > li > a {
+    padding: 1rem 0;
+    font-size: calc(var(--default-font-size) * 1);
+  }
+}
